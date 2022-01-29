@@ -1,0 +1,270 @@
+*
+    -webkit-box-sizing: border-box
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+body
+    overflow-x: hidden
+    h1 , h2 , h3
+        margin: 0
+
+.container
+    width: 1170px
+    margin: 0 auto
+
+.promo
+    width: 100vw
+    height: 680px
+    overflow: hidden
+    position: relative
+
+.promo::before
+    content: ""
+    width: 100%
+    height: 100%
+    background: rgba(0, 0, 0, 0.6)
+    position: absolute
+    top: 0
+    left: 0
+    z-index: 3
+
+header
+    height: 50px
+    position: relative
+    nav
+        height: 50px
+        .hamburger-menu
+            display: flex
+            align-items: center
+            padding-top: 5px
+
+        .menu
+            display: flex
+            justify-content: center
+            margin: 0
+            list-style-type: none
+            padding-top: 15px
+        .menu_link
+            color: #ffffff
+            font-family: 'Comfortaa', cursive
+            font-size: 21px
+            text-decoration: none
+
+        .menu_logo
+            color: #ffffff
+            font-family: 'Pacifico', cursive
+            font-size: 41px
+            margin-right: 400px
+        .menu_item
+            margin-right: 30px
+
+.wrapper-header
+    display: flex
+    align-items: center
+
+.hamburger
+    display: none
+
+.intro_media
+    padding-bottom: 56.25%
+
+.intro_content
+    width: 100%
+    height: 100%
+    position: absolute
+    top: 0
+    left: 0
+    display: block
+    margin: 0 auto
+    z-index: 10
+
+.promo video
+
+    position: absolute
+    width: 100%
+    height: auto
+    top: 0
+    left: 0
+
+.hamburger
+    display: none
+
+.promo_text
+    padding: 170px
+    h1
+        color: #ffffff
+        font-family: 'Comfortaa', cursive
+        font-size: 27px
+        text-align: center
+        margin-bottom: 30px
+    .promo_p_text
+        text-align: left
+        color: #ffffff
+        font-family: 'Comfortaa', cursive
+        font-size: 16px
+
+.aboutUS
+    min-height: 400px
+    padding: 50px 0px 50px 0px
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../img/car-hire.jpg") center (center / cover) no-repeat
+    .about_trezv
+        display: block
+        margin: 0 auto
+        font-family: 'Comfortaa', cursive
+        margin-bottom: 25px
+
+        h2
+            color: white
+            text-align: center
+            font-size: 24px
+            margin-bottom: 25px
+        p
+            font-size: 16px
+            color: white
+            margin: 0
+
+    .about_driver
+        display: block
+        margin: 0 auto
+        font-family: 'Comfortaa', cursive
+        h2
+            text-align: center
+            color: white
+            font-size: 24px
+            margin-bottom: 25px
+        p
+            text-align: left
+            font-size: 16px
+            color: white
+            margin: 0
+
+.advantage_wrap
+    outline: 0
+    height: 250px
+    padding: 30px 0px 30px 0px
+    background-color: #EBEBEB
+    h1
+        text-align: center
+        color: rgb(39, 39, 39)
+        font-weight: 500
+        font-family: 'Ubuntu', sans-serifs
+        font-size: 27px
+        margin-bottom: 40px
+    .advantage
+        margin-top: 25px
+        color: rgb(33, 33, 33)
+        font-family: 'Comfortaa', cursive
+        display: flex
+        justify-content: center
+        align-items: center
+        .advantage_content
+            text-align: center
+            margin-right: 50px
+            h3
+                font-size: 16px
+                font-weight: 700
+                margin-bottom: 15px
+            i
+                color: rgb(33, 33, 33)
+
+.contact
+    min-height: 300px
+    padding: 50px 0px 50px 0px
+    background-color: #EBEBEB
+    h1
+        font-family: 'Ubuntu', sans-serif
+        color: rgb(33, 33, 33)
+        text-align: center
+        font-size: 40px
+        text-transform: uppercase
+    h2
+        font-family: 'Ubuntu', sans-serif
+        color: rgb(33, 33, 33)
+        text-align: center
+        font-size: 15px
+        text-transform: uppercase
+        a
+            text-decoration: none
+            color: #25d366
+    .phones
+        width: 400px
+        display: block
+        margin: 0 auto
+        a
+            border: 0px solid grey
+            display: block
+            margin: 0
+            text-decoration: none
+            color: black
+            font-family: 'Ubuntu', sans-serif
+            color: rgb(33, 33, 33)
+            text-align: center
+            font-size: 35px
+
+.call-us:hover
+    color: #25d366
+
+.otzyv
+    font-family: 'Comfortaa', cursive
+    min-height: 300px
+    padding: 50px 0px 50px 0px
+    color: white
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../img/key.jpg") center (center / cover) no-repeat
+    h1
+        text-align: center
+        margin-bottom: 20px
+    .slider
+        max-width: 80%
+        margin: 20px auto
+        overflow: hidden
+        text-align: center
+    .slider-line
+        display: flex
+        transition: all ease 2s
+
+.float
+    position: fixed
+    width: 60px
+    height: 60px
+    bottom: 40px
+    right: 40px
+    background-color: #25d366
+    color: #FFF
+    border-radius: 50px
+    text-align: center
+    font-size: 30px
+    box-shadow: 0px 0px 11px #ffffff
+    z-index: 100
+
+.float:hover
+    color: white
+
+.my-float
+    margin-top: 16px
+
+.phone
+    position: fixed
+    width: 60px
+    height: 60px
+    bottom: 125px
+    right: 40px
+    background-color: #17ced4
+    color: #FFF
+    border-radius: 50px
+    text-align: center
+    font-size: 30px
+    box-shadow: 0px 0px 11px #ffffff
+    z-index: 100
+
+.phone:hover
+    color: white
+
+footer
+    background-color: black
+    height: 100px
+    padding-top: 40px
+
+.author
+    font-family: 'Comfortaa', cursive
+    font-size: 20px
+    z-index: 0
